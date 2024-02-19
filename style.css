@@ -92,6 +92,15 @@ body {
     font-weight: 700;
     margin-bottom: 8px;
 }
+#full{
+    
+    
+    fill: #00a650;
+    height: 15px;
+    vertical-align: baseline;
+}
+
+
 
 #info {
     overflow: hidden;
@@ -103,20 +112,24 @@ body {
 #desc {
    
     margin-bottom: 20px;
-   
     text-align: center;
 }
 
 #value {
    
-   margin-bottom: 8px;
+   margin-bottom: 10px;
    
 }
 
 #frete{
+    display: flex;
+    
     color: #00a650;
     font-weight: 700;
     margin-top: 8px;
+    gap: 7px;
+    
+    
 }
 #title {
     overflow: hidden;
