@@ -12,6 +12,7 @@ body {
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+    
    
 }
 
@@ -111,7 +112,10 @@ body {
 }
 #desc {
    
-    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -168,7 +172,7 @@ color: rgba(71, 71, 201, 0.748);
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    
     
 }
 
