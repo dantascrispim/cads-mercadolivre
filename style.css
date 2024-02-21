@@ -203,11 +203,12 @@ color: #3483fa;
     align-items: center;
 }
 
-#but span {
+#but a {
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #3483fa;
     
 }
 #button {
@@ -227,11 +228,12 @@ color: #3483fa;
     align-items: center;
   
 }
-#button span {
+#button a {
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #3483fa;
 }
 #but:hover {
     background: #8ebafc62;
