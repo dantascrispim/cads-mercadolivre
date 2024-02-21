@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+}
 
 body {
     font-family: Roboto, 'Arial',sans-serif;
@@ -64,6 +66,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    margin: 20px 0px 20px 0px;
+   
 
 }
 
@@ -77,6 +81,13 @@ body {
 }
 
 #imgCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+}
+#imgPag{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,14 +120,16 @@ body {
     white-space: nowrap;
     margin-bottom: 8px;
     text-align: left;
+    line-height:19px ;
 }
 #desc {
    
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     text-align: center;
+    line-height:19px ;
 }
 
 #value {
@@ -139,8 +152,9 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
     max-width: 120px;
+    margin-top: 6px;
+    font-weight: 00;
 }
 a {
     text-decoration: none;
@@ -149,6 +163,31 @@ a {
 a:hover {
 color: rgba(71, 71, 201, 0.748);
 
+}
+
+#but {
+    background: #b1d0ff5e;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    color: #3483fa;
+    cursor: pointer;
+    font-weight: 600;
+  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 45px;
+    align-items: center;
+}
+
+#but span {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 #button {
     background: #b1d0ff5e;
@@ -163,7 +202,7 @@ color: rgba(71, 71, 201, 0.748);
     justify-content: center;
     text-align: center;
     font-size: 12px;
-    margin-top: 10px;
+    
     align-items: center;
   
 }
@@ -175,9 +214,12 @@ color: rgba(71, 71, 201, 0.748);
     
     
 }
+#but:hover {
+    background: #8ebafc62;
+}
 
 #button:hover{
-    background: #74acff3f;
+    background: #8ebafc62;
 }
 
 
