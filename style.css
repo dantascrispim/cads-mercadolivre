@@ -14,9 +14,11 @@ body {
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+    cursor: pointer;
     
    
 }
+
 
 #cards {
     background: white;
@@ -32,6 +34,10 @@ body {
     
 }
 
+#cards:hover a {
+    color: #3483fa;
+}
+
 #localização {
     background: white;
     width: 130px;
@@ -41,9 +47,11 @@ body {
     font-size: 14px;
     line-height: 1.25;
     font-weight: 400;
-   
-    color: rgba(0,0,0,.9);
-    
+    color: rgba(0,0,0,.9); 
+}
+
+#localização:hover a {
+    color: #3483fa;
 }
 
 #conta {
@@ -56,8 +64,28 @@ body {
     line-height: 1.25;
     font-weight: 400;
    
-    color: rgba(0,0,0,.9);
-    
+    color: rgba(0,0,0,.9); 
+}
+
+#conta:hover a {
+    color: #3483fa;
+}
+
+#pagamentos {
+    background: white;
+    width: 130px;
+    padding: 16px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+   
+    color: rgba(0,0,0,.9); 
+}
+
+#pagamentos:hover a {
+    color: #3483fa;
 }
 
 #imgcard {
@@ -67,8 +95,6 @@ body {
     align-items: center;
     padding: 16px;
     margin: 20px 0px 20px 0px;
-   
-
 }
 
 #imgLoc {
@@ -85,7 +111,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px;
-
 }
 #imgPag{
     display: flex;
@@ -94,10 +119,6 @@ body {
     padding: 16px;
 
 }
-
-
-
-
 
 #valor{
     color:  black;
@@ -161,7 +182,7 @@ a {
 }
 
 a:hover {
-color: rgba(71, 71, 201, 0.748);
+color: #3483fa;
 
 }
 
@@ -211,8 +232,6 @@ color: rgba(71, 71, 201, 0.748);
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 #but:hover {
     background: #8ebafc62;
