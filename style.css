@@ -4,59 +4,68 @@
 }
 
 body {
-    font-family: Roboto, 'Arial',sans-serif;
+    
     background: yellow;
     
+    
+    
+}
+
+body {
+    background: orange;
 }
 
 #container {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
     flex-wrap: wrap;
-    cursor: pointer;
+    width: 100vw;
+    height: 100vh;
+    gap: 16px;
     
-   
-}
+  }
+  
+#card1 {
+        background: white;
+        width: 130px;
+        height: 300px;
+        padding: 16px;
+        border-radius: 5px;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.25;
+        font-weight: 400;
+        
+        color: rgba(0,0,0,.9);
+        
+    }
 
-
-#cards {
+    #card1:hover a {
+        color: #3483fa;
+    }
+  
+  
+  #card2 {
     background: white;
     width: 130px;
+    height: 300px;
     padding: 16px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     line-height: 1.25;
     font-weight: 400;
-    
     color: rgba(0,0,0,.9);
-    
-}
+  }
 
-#cards:hover a {
+  #card2:hover a {
     color: #3483fa;
 }
-
-#localização {
+  #card3{
     background: white;
     width: 130px;
-    padding: 16px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 14px;
-    line-height: 1.25;
-    font-weight: 400;
-    color: rgba(0,0,0,.9); 
-}
-
-#localização:hover a {
-    color: #3483fa;
-}
-
-#conta {
-    background: white;
-    width: 130px;
+    height: 300px;
     padding: 16px;
     border-radius: 5px;
     text-align: center;
@@ -65,15 +74,16 @@ body {
     font-weight: 400;
    
     color: rgba(0,0,0,.9); 
-}
+  
+  }
 
-#conta:hover a {
+  #card3:hover a {
     color: #3483fa;
 }
-
-#pagamentos {
+  #card4 {
     background: white;
     width: 130px;
+    height: 300px;
     padding: 16px;
     border-radius: 5px;
     text-align: center;
@@ -82,13 +92,12 @@ body {
     font-weight: 400;
    
     color: rgba(0,0,0,.9); 
-}
-
-#pagamentos:hover a {
+  
+  }
+  #card4:hover a {
     color: #3483fa;
-}
-
-#imgcard {
+}  
+  #imgcard {
     
     display: flex;
     justify-content: center;
@@ -247,5 +256,3 @@ color: #3483fa;
 #button:hover{
     background: #8ebafc62;
 }
-
-
