@@ -3,16 +3,10 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    
-    background: yellow;
-    
-    
-    
-}
+
 
 body {
-    background: orange;
+    background: linear-gradient(to bottom right, #ffde3c9b, #ffea61e2);
 }
 
 #container {
